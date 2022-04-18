@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 html {
-    background-image: linear-gradient(to bottom right, #0ccdf4, #08e1a7);
+    background-image: linear-gradient(to bottom right, #00c6ee, #00d69d);
     background-color: #0ccdf4;
 }
 
 body, html {
     color: #FFFFFF;
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
     font-size: 19px;
     height: 100vh;
     width: 100%;
@@ -16,11 +17,14 @@ body, html {
 }
 
 h1 {
+    font-size: 26pt;
+    font-weight: 700;
     margin: 0;
 }
 
 p {
-    margin: 8px 0;
+    
+    margin: 10px 0;
 }
 
 /* Floating Container */
@@ -47,24 +51,22 @@ p {
 /* Buttons */
 
 .web-links {
-    margin-top: 18px;
+    margin-top: 24px;
 }
 
 .web-links a {
     
     color: #FAFAFA;
     padding: 8px;
-    font-size: 16pt;
+    font-size: 22pt;
     
 }
 
 .web-links div {
     float: left;
-    border: 1.8px solid #FAFAFA;
-    border-radius: 50%;
     text-align: center;
-    height: 42px;
-    margin-right: 8px;
-    line-height: 42px;
-    width: 42px;
+    height: 36px;
+    margin-right: 18px;
+    line-height: 36px;
+    width: 36px;
 }
