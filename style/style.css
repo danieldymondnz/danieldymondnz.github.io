@@ -51,6 +51,7 @@ p {
 /* Buttons */
 
 .web-links {
+    line-height: 36px;
     margin-top: 24px;
 }
 
